@@ -7,13 +7,17 @@
 
         default_layer { // Layer 0
             // -------------------------------------
-            // |     Z     |     M     |     K     |
-            // |     A     |     B     |     C     |
-            // |     D     |     E     |     F     |
+            // |     ESC     |     1     |     2     |     3     |     4     |     5     |
+            //         |   Tab     |     Q     |     W     |    E     |     R     |     T     |
+            //            |  CapsLock |     A     |     S     |     D     |    F     |     G     |
+            //          |      SHIFT     |     Z     |     X     |     C     |    V     |
+            //   |    CTRL   |    LAYER 1   |  Windows  |    ALT    |   SPACE   |
             bindings = <
-                &kp Z    &kp M    &kp K
-                &kp A    &kp B    &kp C
-                &kp D    &kp E    &kp F
+                &kp ESC    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5
+                &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T
+                &kp CAPS   &kp A    &kp S    &kp D    &kp F    &kp G
+                &kp LSHIFT &kp Z    &kp X    &kp C    &kp V
+                &kp LCTRL  &mo 1    &kp LGUI &kp LALT &kp SPACE
             >;
         };
     };

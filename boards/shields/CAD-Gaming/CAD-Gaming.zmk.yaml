@@ -1,0 +1,9 @@
+file_format: "1"
+id: CAD-Gaming
+name: CAD-Gaming
+type: shield
+url: https://github.com/SamKudarauskas/nicenano-shield
+requires:
+  - nice!nano
+features:
+  - keys

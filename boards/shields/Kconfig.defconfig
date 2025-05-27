@@ -1,0 +1,5 @@
+if SHIELD_CAD-Gaming
+
+config ZMK_CAD-Gaming
+    default "My Keyboard"
+endif

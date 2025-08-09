@@ -18,7 +18,7 @@
                 &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T
                 &kp CAPS   &kp A    &kp S    &kp D    &kp F    &kp G
                 &kp LSHIFT &kp Z    &kp X    &kp C    &kp V    &none
-                &kp LCTRL  &tog1    &kp LGUI &kp LALT &kp SPACE
+                &kp LCTRL  &tog 1    &kp LGUI &kp LALT &kp SPACE
             >;
         };
 

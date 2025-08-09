@@ -1,5 +1,5 @@
 if SHIELD_CADGaming
 
 config ZMK_KEYBOARD_NAME
-    default "My Keyboard"
+    default "Custom keyboard"
 endif

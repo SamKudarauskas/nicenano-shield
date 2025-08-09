@@ -8,24 +8,24 @@
 
         default_layer { // Layer 0
             // -------------------------------------
-            // |     ESC     |     1     |     2     |     3     |     4     |     5     |
+            // |     ESC     |     1     |     2     |     3     |     4     |   DELETE     |
             //         |   Tab     |     Q     |     W     |    E     |     R     |     T     |
             //            |  CapsLock |     A     |     S     |     D     |    F     |     G     |
             //          |      SHIFT     |     Z     |     X     |     C     |    V     |
             //   |    CTRL   |    LAYER 1   |  Windows  |    ALT    |   SPACE   |
             bindings = <
-                &kp ESC    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5
+                &kp ESC    &kp N1   &kp N2   &kp N3   &kp N4   &kp DEL
                 &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T
                 &kp CAPS   &kp A    &kp S    &kp D    &kp F    &kp G
                 &kp LSHIFT &kp Z    &kp X    &kp C    &kp V    &none
-                &kp LCTRL  &tog 1    &kp LGUI &kp LALT &kp SPACE
+                &kp LCTRL  &tog 1   &kp LGUI &kp LALT &kp SPACE
             >;
         };
 
         extras_layer { // Layer 1
             bindings = <
-                &kp C_MUTE   &kp C_VOL_UP  &kp C_VOL_DN  &kp C_BRI_DN    &kp C_BRI_UP    &none
-                &kp TAB      &tog 0        &none         &none           &none           &none
+                &kp ESC      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_BRI_DN    &kp C_BRI_UP
+                &kp TAB      &tog 0        &tog 0        &tog 0          &tog 0          &tog 0 
                 &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR      &none           &bootloader 
                 &none        &none         &none         &none           &none           &none
                 &none        &tog 1        &kp LGUI      &kp LALT        &none

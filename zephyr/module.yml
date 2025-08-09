@@ -1,4 +1,0 @@
-name: zmk-keyboard-Gaming-CAD
-build:
-  settings:
-    board_root: .

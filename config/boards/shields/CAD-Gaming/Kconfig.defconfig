@@ -1,5 +1,5 @@
-if SHIELD_CAD-Gaming
+if SHIELD_CADGaming
 
-config ZMK_CAD-Gaming
+config ZMK_CADGaming
     default "My Keyboard"
 endif

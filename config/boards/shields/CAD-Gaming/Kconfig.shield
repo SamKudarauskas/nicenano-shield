@@ -1,2 +1,2 @@
-config SHIELD_CAD-Gaming
-    def_bool $(shields_list_contains,CAD-Gaming)
+config SHIELD_CADGaming
+    def_bool $(shields_list_contains,CADGaming)

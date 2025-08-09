@@ -2,8 +2,8 @@
 
 / {
     chosen {
-        zmk,physical-layout = &physical_layout0;
-        // Other chosen items
+        zmk,kscan = &default_kscan;
+        zmk,matrix_transform = &default_transform;
     };
 
     default_kscan: kscan {
@@ -29,7 +29,7 @@
             ;
     };
 
-    default_transform: keymap_transform0 {
+    default_transform: keymap_transform {
         compatible = "zmk,matrix-transform";
         columns = <6>; // Length of the "col-gpios" array
         rows = <5>; // Length of the "row-gpios" array
@@ -43,11 +43,11 @@
     };
 };
 
-/ {
-    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
-        transform = <&default_transform>; // Label of the matrix transform for this layout
-    };
-};
+/// {
+//    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
+//        compatible = "zmk,physical-layout";
+//        display-name = "Default Layout";
+//        kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
+//        transform = <&default_transform>; // Label of the matrix transform for this layout
+//    };
+//};
